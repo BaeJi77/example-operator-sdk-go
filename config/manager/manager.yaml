@@ -83,6 +83,7 @@ spec:
           periodSeconds: 10
         # TODO(user): Configure the resources accordingly based on the project requirements.
         # More info: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/
+        # todo add env to MEMCACHED_IMAGE
         resources:
           limits:
             cpu: 500m
